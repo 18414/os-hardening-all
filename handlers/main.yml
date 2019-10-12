@@ -1,2 +1,5 @@
 ---
+# 
 # handlers file for os-hardening-all
+- name: update-initramfs
+  command: 'update-initramfs -u'
